@@ -30,4 +30,4 @@ class Note(Base):
     author_id = Column(Integer, ForeignKey("user.id"))
 
     def __repr__(self) -> str:
-        return
+        return f"<Note(title={self.name}, date={str(self.date)}, author={self.author_id})>"
