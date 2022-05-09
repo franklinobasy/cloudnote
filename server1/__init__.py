@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-
+from server1.credentials import PASSWORD
 
 password = input("Enter password: ")
 engine = create_engine(f"postgresql://postgres:{password}@localhost:5432/cloudnote-db")
