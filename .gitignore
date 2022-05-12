@@ -1,6 +1,5 @@
-server1/__pycache__/*
 server1/credentials.py
-server2/__pycache__/*
 server2/__pycache__
 server1/__pycache__
-__pycache__/
+__pycache__
+env
